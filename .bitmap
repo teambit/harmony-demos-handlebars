@@ -29,16 +29,6 @@
                 "test": false
             },
             {
-                "name": "jest.config.js",
-                "relativePath": "jest/jest.config.js",
-                "test": false
-            },
-            {
-                "name": "jest.setup.js",
-                "relativePath": "jest/jest.setup.js",
-                "test": false
-            },
-            {
                 "name": "tsconfig.json",
                 "relativePath": "typescript/tsconfig.json",
                 "test": false
@@ -55,7 +45,46 @@
         "exported": false,
         "lanes": []
     },
-    "handlebar/simple-example": {
+    "handelbars/partials-example": {
+        "files": [
+            {
+                "name": "example-with-partials.compositions.tsx",
+                "relativePath": "example-with-partials.compositions.tsx",
+                "test": false
+            },
+            {
+                "name": "example-with-partials.handlebars",
+                "relativePath": "example-with-partials.handlebars",
+                "test": false
+            },
+            {
+                "name": "example-with-partials.js",
+                "relativePath": "example-with-partials.js",
+                "test": false
+            },
+            {
+                "name": "index.js",
+                "relativePath": "index.js",
+                "test": false
+            },
+            {
+                "name": "partial-example.docs.tsx",
+                "relativePath": "partial-example.docs.tsx",
+                "test": false
+            },
+            {
+                "name": "person.handlebars",
+                "relativePath": "person.handlebars",
+                "test": false
+            }
+        ],
+        "mainFile": "index.js",
+        "rootDir": "components/handlebars/partials-example",
+        "origin": "AUTHORED",
+        "exported": false,
+        "lanes": []
+    },
+    "handelbars/simple-example": {
         "files": [
             {
                 "name": "handlebar-example.compositions.tsx",
@@ -70,6 +99,11 @@
             {
                 "name": "handlebar-example.js",
                 "relativePath": "handlebar-example.js",
+                "test": false
+            },
+            {
+                "name": "handlebar-example.docs.tsx",
+                "relativePath": "handlebar-example.docs.tsx",
                 "test": false
             },
             {
