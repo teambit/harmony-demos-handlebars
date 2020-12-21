@@ -2,7 +2,6 @@
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://docs.bit.dev/configuration
  **/{
-  "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
    **/
@@ -30,10 +29,32 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
+        "@types/react": "16.9.43",
+        "@types/react-dom": "17.0.0",
+        "@types/react-router-dom": "^5.1.5",
         "handlebars": "4.7.6",
-        "handlebars-loader": "1.7.1"
+        "handlebars-loader": "1.7.1",
+        "react-render-html": "0.6.0",
+        "@teambit/documenter.code.react-playground": "^1.0.3",
+        "@teambit/documenter.theme.theme-context": "^1.0.3",
+        "@teambit/documenter.ui.code-snippet": "^1.0.3",
+        "@teambit/documenter.ui.highlighted-text": "^1.0.3",
+        "@teambit/documenter.ui.linked-heading": "^1.0.3",
+        "@teambit/documenter.ui.list": "^1.0.3",
+        "@teambit/documenter.ui.paragraph": "^1.0.3",
+        "@teambit/documenter.ui.section": "^1.0.3",
+        "@teambit/documenter.ui.separator": "^1.0.3"
+      },
+      "peerDependencies": {
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
       }
-    }
+    },
+    "packageManagerArgs": [],
+    "devFilePatterns": [
+      "*.spec.ts"
+    ],
+    "strictPeerDependencies": true
   },
   /**
    * workspace variants allow to set different subsets of configuration for components in your workspace.
@@ -45,7 +66,7 @@
      * "*" is a special rule which applied on all components in the workspace.
      **/
     "*": {
-      "teambit.react/react": { }
+      "teambit.react/react": {}
     },
     "components/extensions": {
       "teambit.harmony/aspect": {}
