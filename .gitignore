@@ -105,3 +105,6 @@ dist
 
 # bundle directory
 public/
+
+# mac directory file
+.DS_Store
