@@ -17,7 +17,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "teambit.bit-examples"
+    "defaultScope": "teambit.harmony-examples"
   },
   /**
    * main configuration for component dependency resolution.
@@ -66,7 +66,7 @@
      * "*" is a special rule which applied on all components in the workspace.
      **/
     "*": {
-      "teambit.react/react": {}
+      "teambit.harmony/node": {}
     },
     "components/extensions": {
       "teambit.harmony/aspect": {}
