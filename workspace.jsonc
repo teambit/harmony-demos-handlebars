@@ -17,7 +17,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "teambit.harmony-examples"
+    "defaultScope": "teambit.use-case-examples"
   },
   /**
    * main configuration for component dependency resolution.
@@ -72,7 +72,7 @@
       "teambit.harmony/aspect": {}
     },
     "components/handlebars": {
-      "teambit.bit-examples/environments/handlebars-node": {}
+      "teambit.use-case-examples/environments/handlebars-node": {}
     }
   }
 }
