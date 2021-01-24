@@ -32,8 +32,6 @@
         "@types/react": "16.9.43",
         "@types/react-dom": "17.0.0",
         "@types/react-router-dom": "^5.1.5",
-        "handlebars": "4.7.6",
-        "handlebars-loader": "1.7.1",
         "react-render-html": "0.6.0",
         "@teambit/documenter.code.react-playground": "^1.0.3",
         "@teambit/documenter.theme.theme-context": "^1.0.3",
@@ -78,10 +76,10 @@
             "dependencies": {
               "handlebars": "4.7.6",
               "handlebars-loader": "1.7.1"
+            }
           }
         }
       }
     }
-  }
   }
 }
