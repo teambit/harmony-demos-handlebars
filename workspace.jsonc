@@ -69,17 +69,19 @@
     "components/extensions": {
       "teambit.harmony/aspect": {}
     },
-    "components/handlebars": {
-      "teambit.use-case-examples/environments/handlebars-node": {
-        "teambit.dependencies/dependency-resolver": {
-          "policy": {
-            "dependencies": {
-              "handlebars": "4.7.6",
-              "handlebars-loader": "1.7.1"
-            }
+    "components/extensions/handlebars-node": {
+      "teambit.harmony/aspect": {},
+      "teambit.dependencies/dependency-resolver": {
+        "policy": {
+          "dependencies": {
+            "handlebars": "4.7.6",
+            "handlebars-loader": "1.7.1"
           }
         }
       }
+    },
+    "components/handlebars": {
+      "teambit.use-case-examples/environments/handlebars-node": {}
     }
   }
 }
