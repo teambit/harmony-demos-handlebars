@@ -108,3 +108,5 @@ public/
 
 # mac directory file
 .DS_Store
+
+.history
